@@ -7,6 +7,7 @@ A Sample React UI Kit.
 Used tools:
 
 - TypeScript
+- SCSS
 - Storybook
 - Rollup
 
