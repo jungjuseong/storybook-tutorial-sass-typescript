@@ -8,7 +8,12 @@
     "/dist"
   ],
   "dependencies": {
-    "react-spring": "^8.0.27"
+    "@types/lodash": "^4.14.168",
+    "lodash": "^4.17.21",
+    "mobx": "^6.1.8",
+    "mobx-react": "^7.1.0",
+    "react-spring": "^8.0.27",
+    "sass": "^1.32.8"
   },
   "devDependencies": {
     "@babel/core": "^7.7.2",
@@ -23,6 +28,7 @@
     "babel-loader": "^8.0.6",
     "babel-plugin-named-asset-import": "^0.3.4",
     "babel-preset-react-app": "^9.0.2",
+    "css-loader": "^5.2.0",
     "react-docgen-typescript-loader": "^3.4.0",
     "rollup": "^1.27.2",
     "rollup-plugin-babel": "^4.3.3",
@@ -30,6 +36,8 @@
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-peer-deps-external": "^2.2.0",
     "rollup-plugin-url": "^3.0.0",
+    "sass-loader": "^10.1.1",
+    "style-loader": "^2.0.0",
     "typescript": "^3.7.2"
   },
   "scripts": {
