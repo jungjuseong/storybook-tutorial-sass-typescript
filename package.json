@@ -1,6 +1,7 @@
 {
-  "name": "react-uikit-sample",
-  "version": "1.0.3",
+  "name": "clbee-uikit-sample",
+  "username": "juseong.jung",
+  "version": "1.0.4",
   "module": "dist/index.js",
   "license": "MIT",
   "types": "dist/types/index.d.ts",

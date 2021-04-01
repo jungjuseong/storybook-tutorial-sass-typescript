@@ -25,6 +25,7 @@ module.exports = ({ config, mode }) => {
       require.resolve('react-docgen-typescript-loader')
     ]
   });
+  config.resolve.extensions.push('.ts', '.tsx');
 
   config.module.rules.push({
     test: /\.scss$/,
@@ -32,6 +33,5 @@ module.exports = ({ config, mode }) => {
     include: path.resolve(__dirname, '../'),
   });
 
-  config.resolve.extensions.push('.ts', '.tsx');
   return config;
 };

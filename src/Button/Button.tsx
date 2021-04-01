@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx, css } from '@emotion/core';
 
-type ButtonProps = {
+interface ButtonProps {
   /** 버튼 안의 내용 */
   children: React.ReactNode;
   /** 클릭했을 때 호출할 함수 */
@@ -27,8 +27,7 @@ const Button = ({
   width,
   iconOnly,
   onClick
-}: ButtonProps) => {
-  return (
+}: ButtonProps) =>   
     <button
       css={[
         style,
@@ -41,9 +40,7 @@ const Button = ({
       onClick={onClick}
     >
       {children}
-    </button>
-  );
-};
+    </button>;
 
 Button.defaultProps = {
   theme: 'primary',
